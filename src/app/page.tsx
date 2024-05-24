@@ -3,7 +3,7 @@ import { Streak } from "@/components/streak";
 
 export default function HomePage() {
   return (
-    <main className="container mx-auto">
+    <main className="container mx-auto h-full w-full">
       <Navbar />
       <Streak />
     </main>
